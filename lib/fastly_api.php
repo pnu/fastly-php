@@ -1651,7 +1651,7 @@ class FastlyAPI {
 	}
 
 	/*
-	 * PURGE /service/<id>/purge_all
+	 * POST /service/<id>/purge_all
 	 * Purge everything from a service
 	 * Requires >= engineer permissions
 	 * example: POST /service/SU1Z0isxPaozGVKXdv0eY/purge_all
